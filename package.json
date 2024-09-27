@@ -15,14 +15,26 @@
     "build": "cross-env BUILD_MODE=prod vite build --base=./",
     "lint": "eslint .",
     "preview": "vite preview",
-    "lint:fix": "eslint --fix src --ext js,jsx",
+    "lint:fix": "eslint --fix src",
     "prettier": "prettier --check \"src/**/(*.jsx|*.js|*.css|*.scss)\"",
     "prettier:fix": "prettier --write \"src/**/(*.jsx|*.js|*.css|*.scss)\""
   },
   "dependencies": {
+    "@headlessui/react": "^2.1.8",
+    "@heroicons/react": "^2.1.5",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "aos": "^2.3.4",
     "cross-env": "^7.0.3",
+    "rc-drawer": "^7.2.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-dropzone": "^14.2.3",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.26.2",
+    "react-share": "^5.1.0",
+    "react-spinners": "^0.14.1",
+    "react-toastify": "^10.0.5",
+    "swiper": "^11.1.14"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
@@ -30,6 +42,7 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
+    "autoprefixer": "^10.4.20",
     "eslint": "^9.9.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
@@ -37,7 +50,9 @@
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
+    "postcss": "^8.4.47",
     "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.13",
     "vite": "^5.4.1"
   }
 }
